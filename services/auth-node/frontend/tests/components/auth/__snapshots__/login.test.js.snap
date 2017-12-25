@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Auth Login should correctly render LoginPage 1`] = `
+<div>
+  <h1>
+    Login
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      name="email"
+      onChange={[Function]}
+      placeholder="john@email.com"
+      required={true}
+      type="email"
+      value=""
+    />
+    <input
+      name="password"
+      onChange={[Function]}
+      placeholder="password"
+      required={true}
+      type="password"
+      value=""
+    />
+    <button
+      disabled={false}
+    >
+      Login
+    </button>
+  </form>
+  <t
+    appId="0000"
+    callback={[Function]}
+    cookie={false}
+    cssClass="kep-login-facebook"
+    disableMobileRedirect={false}
+    fields="name,email"
+    isMobile={false}
+    language="en_US"
+    reAuthenticate={false}
+    redirectUri="about:blank"
+    scope="public_profile,email"
+    size="small"
+    tag="button"
+    textButton="Login with Facebook"
+    typeButton="button"
+    version="2.3"
+    xfbml={false}
+  />
+  <Link
+    replace={false}
+    to="/register"
+  >
+    Create new account?
+  </Link>
+</div>
+`;

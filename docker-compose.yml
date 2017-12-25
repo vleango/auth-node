@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+  auth-node:
+    build:
+      context: .
+      dockerfile: ./config/dockerfiles/Dockerfile-node
+      args:
+        APP_PATH: ./services/auth-node
+    ports:
+      - '4000:3000'
+    volumes:
+      - ./services/auth-node:/app
+    depends_on:
+      - db
+    command: "yarn run start"
+  db:
+    image: mongo:3.4.10
+    ports:
+      - '27017:27017'

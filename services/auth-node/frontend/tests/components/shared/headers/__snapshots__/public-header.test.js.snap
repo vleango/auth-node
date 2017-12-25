@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Shared Headers PublicHeader should render PublicHeader correctly 1`] = `
+<Header
+  buttonText="Login"
+  headerLink="/"
+  onClickPressed={[Function]}
+/>
+`;

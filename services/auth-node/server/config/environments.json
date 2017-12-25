@@ -1,0 +1,14 @@
+{
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://db/app",
+    "JWT_SECRET": "thisisasecret",
+    "ALLOWED_FRONTEND_URLS": ["http://localhost:3000"]
+  },
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://db/appTest",
+    "JWT_SECRET": "anothersecret",
+    "ALLOWED_FRONTEND_URLS": ["http://localhost:3000"]
+  }
+}

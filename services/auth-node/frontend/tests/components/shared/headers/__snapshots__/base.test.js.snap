@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Shared Headers Base should render Header correctly 1`] = `
+<div>
+  <header>
+    <Link
+      replace={false}
+      to="/"
+    >
+      <h3>
+        App
+      </h3>
+    </Link>
+    <button />
+  </header>
+</div>
+`;

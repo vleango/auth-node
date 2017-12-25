@@ -1,0 +1,9 @@
+**/node_modules/
+**/public/dist/
+**/build/
+
+services/logger/bin/
+services/logger/pkg/
+
+yarn-error.log
+.DS_Store

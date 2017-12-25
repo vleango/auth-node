@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Shared Errors 404 should correctly render NotFoundPage 1`] = `
+<p>
+  404! - 
+  <Link
+    replace={false}
+    to="/"
+  >
+    Go home
+  </Link>
+</p>
+`;

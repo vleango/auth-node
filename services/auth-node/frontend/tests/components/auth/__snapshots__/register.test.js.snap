@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Auth Register should correctly render RegisterPage 1`] = `
+<div>
+  <h1>
+    Create New Account
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      name="first_name"
+      onChange={[Function]}
+      placeholder="John"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      name="last_name"
+      onChange={[Function]}
+      placeholder="Smith"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      name="email"
+      onChange={[Function]}
+      placeholder="john@email.com"
+      required={true}
+      type="email"
+      value=""
+    />
+    <input
+      name="password"
+      onChange={[Function]}
+      placeholder="password"
+      required={true}
+      type="password"
+      value=""
+    />
+    <input
+      name="password_confirmation"
+      onChange={[Function]}
+      placeholder="confirm password"
+      required={true}
+      type="password"
+      value=""
+    />
+    <button>
+      Create
+    </button>
+  </form>
+  <Link
+    replace={false}
+    to="/login"
+  >
+    Already have an account?
+  </Link>
+</div>
+`;
